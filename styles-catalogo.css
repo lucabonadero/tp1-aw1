@@ -1,0 +1,91 @@
+.centrarheader {
+    text-align: center; /* Centra el contenido horizontalmente */
+    background-color: whitesmoke;
+    padding: 20px; /* Espacio alrededor del contenido */
+  }
+  
+  .headerh1 {
+    display: inline-block; /* Permite que el título se comporte como un bloque en línea */
+    background-color: #333; /* Color de fondo del título */
+    color: #fff; /* Color del texto del título */
+    padding: 10px 20px; /* Espacio alrededor del título */
+    border-radius: 5px; /* Bordes redondeados para la caja del título */
+    font-size: 70px; 
+    font-family: 'Bebas Neue', sans-serif;
+  }
+  .navul{
+    list-style: none; /* Elimina los marcadores de lista */
+    padding: 0; /* Elimina el espacio de relleno predeterminado de la lista */
+  }
+  
+  .navuli{
+    display: inline; /* Hace que los elementos de la lista sean en línea */
+    margin-right: 10px; /* Añade un espacio entre los elementos de la lista */
+    font-size: 40px;
+    font-family: 'Bebas Neue', sans-serif;
+    text-decoration: none;
+    color: white;
+    padding: 0 10;
+  }
+  .navlibros{
+    display: flex;
+    justify-content: center; /* Centra horizontalmente los elementos */
+    align-items: left; /* Centra verticalmente los elementos */
+    flex-wrap: wrap; /* Permite que los elementos se envuelvan en filas si no caben en una sola línea */
+    text-decoration: none; /* Quita el subrayado de los enlaces */
+    margin: 10px; /* Espacio entre los elementos */
+}
+.libro{
+  display: block;
+  margin: 10px;
+  text-align: center;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 2);
+  transition: transform 0.3s ease;
+  /*hacer que no sea translucido el div*/
+  background-color: white;
+}
+.libro img{
+  width: 230px;
+  height: 320px;
+}
+.libro p{
+  margin-top: 5px;
+  font-size: 14px;
+}
+.libro:hover{
+  transform: scale(1.2);
+}
+.descripcionlibro{
+  font-family: 'Bebas Neue', sans-serif;
+}
+.boton{
+  font-weight: 1000;
+  font-family: 'Bebas Neue', sans-serif;
+}
+.botoncentrado{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/*Clase para que las imagenes tengan todas el mismo tamaño*/
+.imagenesmismotamaño{
+  width: 200px;
+  height: 300px;
+}
+.ver-mas {
+  padding: 10px 20px; /* Ajusta el relleno para cambiar el tamaño del botón */
+  background-color: #52565a; /* Color de fondo del botón */
+  color: #fff; /* Color del texto del botón */
+  border: none; /* Quita el borde del botón */
+  border-radius: 5px; /* Añade esquinas redondeadas */
+  cursor: pointer; /* Cambia el cursor al pasar el ratón */
+  font-size: 40px; /* Tamaño de fuente */
+  font-family: 'Bebas Neue', sans-serif;
+}
+
+/* Cambia el estilo del botón cuando se pasa el ratón sobre él */
+.ver-mas:hover {
+  background-color: #232324; /* Cambia el color de fondo al pasar el ratón */
+}

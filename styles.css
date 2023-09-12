@@ -1,0 +1,193 @@
+.centrarheader {
+  text-align: center; /* Centra el contenido horizontalmente */
+  background-color: whitesmoke;
+  padding: 20px; /* Espacio alrededor del contenido */
+}
+
+.headerh1 {
+  display: inline-block; /* Permite que el título se comporte como un bloque en línea */
+  background-color: #333; /* Color de fondo del título */
+  color: #fff; /* Color del texto del título */
+  padding: 10px 20px; /* Espacio alrededor del título */
+  border-radius: 5px; /* Bordes redondeados para la caja del título */
+  font-size: 70px; 
+  font-family: 'Bebas Neue', sans-serif;
+}
+.navul{
+  list-style: none; /* Elimina los marcadores de lista */
+  padding: 0; /* Elimina el espacio de relleno predeterminado de la lista */
+}
+
+.navuli{
+  display: inline; /* Hace que los elementos de la lista sean en línea */
+  margin-right: 10px; /* Añade un espacio entre los elementos de la lista */
+  font-size: 40px;
+  font-family: 'Bebas Neue', sans-serif;
+  text-decoration: none;
+  color: white;
+  padding: 0 10;
+}
+.subtitulo{
+  font-size: 30px;
+  font-family: 'Bebas Neue', sans-serif;
+  text-decoration: none;
+  color: rgb(105, 105, 105);
+  padding: 0 10px;
+  text-align: center;
+}
+.subtitulo-container{
+  display: flex;
+  justify-content: center; /* Centra horizontalmente */
+  align-items: center; 
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 10px 20px, rgba(0, 0, 0, 0.22) 0px 5px 8px;
+  width: 45%;
+
+}
+.contendorcentrado{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.libro{
+  display: inline-block;
+  margin: 10px;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+.libro:hover{
+  transform: scale(1.2);
+}
+.libro img{
+  max-width: 200px;
+  height: auto;
+}
+.libro p{
+  margin-top: 5px;
+  font-size: 14px;
+}
+.tituloslibro{
+  font-family: 'Bebas Neue', sans-serif;
+}
+.listahorizontal{
+  list-style: none;
+  padding: 0;
+  display: flex;
+  margin-right: 20px;
+
+}
+.boton1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 6px 14px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Roboto', sans-serif;
+  border-radius: 6px;
+  border: none;
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+
+  background: #6E6D70;
+  box-shadow: 0px 0.5px 1px rgba(0, 0, 0, 0.1), inset 0px 0.5px 0.5px rgba(255, 255, 255, 0.5), 0px 0px 0px 0.5px rgba(0, 0, 0, 0.12);
+  color: #DFDEDF;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  font-size: 18px;
+  font-family: 'Bebas Neue', sans-serif;
+}
+.boton1:focus {
+  box-shadow: inset 0px 0.8px 0px -0.25px rgba(255, 255, 255, 0.2), 0px 0.5px 1px rgba(0, 0, 0, 0.1), 0px 0px 0px 3.5px rgba(58, 108, 217, 0.5);
+  outline: 0;
+}
+.boton2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 6px 14px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Roboto', sans-serif;
+  border-radius: 6px;
+  border: none;
+  position: fixed;
+  bottom: 60px;
+  right: 10px;
+
+  background: #6E6D70;
+  box-shadow: 0px 0.5px 1px rgba(0, 0, 0, 0.1), inset 0px 0.5px 0.5px rgba(255, 255, 255, 0.5), 0px 0px 0px 0.5px rgba(0, 0, 0, 0.12);
+  color: #DFDEDF;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  font-size: 18px;
+  font-family: 'Bebas Neue', sans-serif;
+}
+.boton2:focus {
+  box-shadow: inset 0px 0.8px 0px -0.25px rgba(255, 255, 255, 0.2), 0px 0.5px 1px rgba(0, 0, 0, 0.1), 0px 0px 0px 3.5px rgba(58, 108, 217, 0.5);
+  outline: 0;
+}
+
+.instrucciones {
+  max-width: 600px; /* Limita el ancho de las instrucciones para que se vean más legibles */
+  margin: 0 ; /* Centra las instrucciones en la página */
+  font-family: 'Bebas Neue', sans-serif;
+}
+
+.instrucciones p {
+  font-size: 24px; /* Tamaño de fuente más grande para el párrafo */
+  font-weight: bold; /* Texto en negrita */
+  font-family: 'Bebas Neue', sans-serif;
+}
+
+.instrucciones ol {
+  font-size: 18px; /* Tamaño de fuente para la lista */
+  list-style-type: decimal; /* Establece el estilo de marcador de lista */
+  padding-left: 20px; /* Espaciado a la izquierda de la lista */
+  font-family: 'Bebas Neue', sans-serif;
+}
+
+.instrucciones ol li {
+  margin-bottom: 10px; /* Espacio entre elementos de lista */
+  font-family: 'Bebas Neue', sans-serif;
+}
+.navlibros{
+    display: flex;
+    justify-content: center; /* Centra horizontalmente los elementos */
+    align-items: center; /* Centra verticalmente los elementos */
+    flex-wrap: wrap; /* Permite que los elementos se envuelvan en filas si no caben en una sola línea */
+    text-decoration: none; /* Quita el subrayado de los enlaces */
+    margin: 10px; /* Espacio entre los elementos */
+}
+.estilofooter{
+  background-color: whitesmoke;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 20px;
+  color: rgb(0, 0, 0);
+}
+/* .background{
+  background-color: #e5e5f7;
+  opacity: 0.8;
+  background-image: radial-gradient(circle at center center, #a1a1a7, #e5e5f7), repeating-radial-gradient(circle at center center, #a1a1a7, #a1a1a7, 10px, transparent 20px, transparent 10px);
+  background-blend-mode: multiply;
+} */
+/* .background{
+  background-color: #e5e5f7;
+  opacity: 0.8;
+  background-image:  repeating-radial-gradient( circle at 0 0, transparent 0, #e5e5f7 10px ), repeating-linear-gradient( #aaa8a555, #aaa8a555 );
+} */
+/* .background{
+  background-color: #e5e5f7;
+  opacity: 0.8;
+  background-image:  linear-gradient(#929292 1px, transparent 1px), linear-gradient(to right, #929292 1px, #e5e5f7 1px);
+  background-size: 20px 20px;
+  
+} */
+
+
+
+
