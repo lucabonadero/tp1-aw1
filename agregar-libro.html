@@ -3,42 +3,70 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Bebas+Neue" rel="stylesheet">
+    <link rel="stylesheet" href="styles-agregarlibro.css">
     <title>Agregar un libro</title>
 </head>
 <body>
-    <header>
-        <h1>Agregar un libro</h1>
+
+    <header class="centrarheader">
+        <h1 class="headerh1">Agregar un libro</h1>
+        <nav class="navul">
+            <ul class="navuli">
+                <li class="navuli"><a href="index.html">Home</a></li>
+                <li class="navuli"><a href="catalogo.html">Catalogo</a></li>
+            </ul>
+        </nav>
 
     </header>
-    <main>
-        <form action="procesar_formulario.php" method="POST">
-            <label for="titulo">Título del libro:</label>
-            <input type="text" id="titulo" name="titulo" required>
-            <br>
-            <label for="autor">Autor:</label>
-            <input type="text" id="autor" name="autor" required>
-            <br>
-    
-            <label for="descripcion">Descripción:</label>
-            <textarea id="descripcion" name="descripcion" rows="4" required></textarea>
-            <br>
-    
-            <label for="estado">Estado del libro:</label>
-            <select id="estado" name="estado">
-                <option value="nuevo">Nuevo</option>
-                <option value="usado">Usado</option>
-            </select>
-            <br>
-    
-            <label for="imagen">Imagen de la portada:</label>
-            <input type="file" id="imagen" name="imagen" accept="image/*">
-            <br>
-    
-            <button type="submit">Agregar Libro</button>
-        </form>
-    </main>
-    <footer>
 
+    <main>
+        <div class="formcentrado">
+            <form action="procesar_formulario.php" method="POST" class="estiloform">
+
+                <label for="titulo">Título del libro:</label>
+                <input type="text" id="titulo" name="titulo" required>
+                <br>
+                <label for="autor">Autor:</label>
+                <input type="text" id="autor" name="autor" required>
+                <br>
+                <label for="descripcion">Descripción:</label>
+                <textarea id="descripcion" name="descripcion" rows="4" required></textarea>
+                <br>
+                <label for="estado">Estado del libro:</label>
+                <select id="estado" name="estado">
+                    <option value="nuevo">Nuevo</option>
+                    <option value="usado">Usado</option>
+                </select>
+                <br>
+                <label for="imagen">Imagen de la portada:</label>
+                <input type="file" id="imagen" name="imagen" accept="image/*">
+                <br>
+
+                <button type="submit" class="botoncentrado">
+                    Agregar Libro
+                </button>
+
+            </form>
+        </div>
+        
+    </main>
+
+    <footer class="estilofooter">
+            <div class="footer-contenido">
+                <div class="footer-desarrollo">
+                    Desarrollado por: Luca Bonadero
+                </div>
+                <div class="footer-contacto">
+                    Contacto: bonaderoluca@gmail.com
+                </div>
+                <div class="footer-github">
+                    GitHub: <a href="https://github.com/lucabonadero" target="_blank">lucabonadero</a>
+                </div>
+            </div>
+            <div class="footer-derechos">
+                &copy; 2023 LucaBonadero. Todos los derechos reservados.
+            </div>
     </footer>
 </body>
 </html>

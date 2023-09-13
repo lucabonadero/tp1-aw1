@@ -77,57 +77,6 @@
   margin-right: 20px;
 
 }
-.boton1 {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 6px 14px;
-  font-family: -apple-system, BlinkMacSystemFont, 'Roboto', sans-serif;
-  border-radius: 6px;
-  border: none;
-  position: fixed;
-  bottom: 10px;
-  right: 10px;
-
-  background: #6E6D70;
-  box-shadow: 0px 0.5px 1px rgba(0, 0, 0, 0.1), inset 0px 0.5px 0.5px rgba(255, 255, 255, 0.5), 0px 0px 0px 0.5px rgba(0, 0, 0, 0.12);
-  color: #DFDEDF;
-  user-select: none;
-  -webkit-user-select: none;
-  touch-action: manipulation;
-  font-size: 18px;
-  font-family: 'Bebas Neue', sans-serif;
-}
-.boton1:focus {
-  box-shadow: inset 0px 0.8px 0px -0.25px rgba(255, 255, 255, 0.2), 0px 0.5px 1px rgba(0, 0, 0, 0.1), 0px 0px 0px 3.5px rgba(58, 108, 217, 0.5);
-  outline: 0;
-}
-.boton2 {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 6px 14px;
-  font-family: -apple-system, BlinkMacSystemFont, 'Roboto', sans-serif;
-  border-radius: 6px;
-  border: none;
-  position: fixed;
-  bottom: 60px;
-  right: 10px;
-
-  background: #6E6D70;
-  box-shadow: 0px 0.5px 1px rgba(0, 0, 0, 0.1), inset 0px 0.5px 0.5px rgba(255, 255, 255, 0.5), 0px 0px 0px 0.5px rgba(0, 0, 0, 0.12);
-  color: #DFDEDF;
-  user-select: none;
-  -webkit-user-select: none;
-  touch-action: manipulation;
-  font-size: 18px;
-  font-family: 'Bebas Neue', sans-serif;
-}
-.boton2:focus {
-  box-shadow: inset 0px 0.8px 0px -0.25px rgba(255, 255, 255, 0.2), 0px 0.5px 1px rgba(0, 0, 0, 0.1), 0px 0px 0px 3.5px rgba(58, 108, 217, 0.5);
-  outline: 0;
-}
-
 .instrucciones {
   max-width: 600px; /* Limita el ancho de las instrucciones para que se vean más legibles */
   margin: 0 ; /* Centra las instrucciones en la página */
@@ -159,34 +108,34 @@
     text-decoration: none; /* Quita el subrayado de los enlaces */
     margin: 10px; /* Espacio entre los elementos */
 }
-.estilofooter{
-  background-color: whitesmoke;
+footer {
+  background-color: #333; /* Color de fondo del footer */
+  color: #fff; /* Color del texto en el footer */
+  text-align: center;
+  padding: 10px 0;
+  font-size: 14px;
+  font-family: 'Bebas Neue', sans-serif;
+}
+
+.footer-contenido {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  padding: 20px;
   font-family: 'Bebas Neue', sans-serif;
-  font-size: 20px;
-  color: rgb(0, 0, 0);
 }
-/* .background{
-  background-color: #e5e5f7;
-  opacity: 0.8;
-  background-image: radial-gradient(circle at center center, #a1a1a7, #e5e5f7), repeating-radial-gradient(circle at center center, #a1a1a7, #a1a1a7, 10px, transparent 20px, transparent 10px);
-  background-blend-mode: multiply;
-} */
-/* .background{
-  background-color: #e5e5f7;
-  opacity: 0.8;
-  background-image:  repeating-radial-gradient( circle at 0 0, transparent 0, #e5e5f7 10px ), repeating-linear-gradient( #aaa8a555, #aaa8a555 );
-} */
-/* .background{
-  background-color: #e5e5f7;
-  opacity: 0.8;
-  background-image:  linear-gradient(#929292 1px, transparent 1px), linear-gradient(to right, #929292 1px, #e5e5f7 1px);
-  background-size: 20px 20px;
-  
-} */
+
+.footer-desarrollo,
+.footer-contacto,
+.footer-github,
+.footer-derechos {
+  flex: 1;
+  padding: 5px;
+}
+
+.footer-derechos {
+  background-color: #222; /* Cambia el color de fondo del bloque de derechos */
+}
 
 
 

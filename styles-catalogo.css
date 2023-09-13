@@ -89,3 +89,31 @@
 .ver-mas:hover {
   background-color: #232324; /* Cambia el color de fondo al pasar el ratón */
 }
+footer {
+  background-color: #333; /* Color de fondo del footer */
+  color: #fff; /* Color del texto en el footer */
+  text-align: center;
+  padding: 10px 0;
+  font-size: 14px;
+  font-family: 'Bebas Neue', sans-serif;
+}
+
+.footer-contenido {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Bebas Neue', sans-serif;
+}
+
+.footer-desarrollo,
+.footer-contacto,
+.footer-github,
+.footer-derechos {
+  flex: 1;
+  padding: 5px;
+}
+
+.footer-derechos {
+  background-color: #222; /* Cambia el color de fondo del bloque de derechos */
+}

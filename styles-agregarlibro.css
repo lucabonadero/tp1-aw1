@@ -1,0 +1,120 @@
+.formcentrado{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.centrarheader {
+    text-align: center; /* Centra el contenido horizontalmente */
+    background-color: whitesmoke;
+    padding: 20px; /* Espacio alrededor del contenido */
+  }
+  .botoncentrado{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .headerh1 {
+    display: inline-block; /* Permite que el título se comporte como un bloque en línea */
+    background-color: #333; /* Color de fondo del título */
+    color: #fff; /* Color del texto del título */
+    padding: 10px 20px; /* Espacio alrededor del título */
+    border-radius: 5px; /* Bordes redondeados para la caja del título */
+    font-size: 70px; 
+    font-family: 'Bebas Neue', sans-serif;
+  }
+  .navul{
+    list-style: none; /* Elimina los marcadores de lista */
+    padding: 0; /* Elimina el espacio de relleno predeterminado de la lista */
+  }
+  
+  .navuli{
+    display: inline; /* Hace que los elementos de la lista sean en línea */
+    margin-right: 10px; /* Añade un espacio entre los elementos de la lista */
+    font-size: 40px;
+    font-family: 'Bebas Neue', sans-serif;
+    text-decoration: none;
+    color: white;
+    padding: 0 10;
+  }
+  .estiloform {
+    max-width: 400px; /* Limita el ancho del formulario */
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+.estiloform label {
+    display: block;
+    margin-bottom: 10px; /* Espacio entre las etiquetas y los campos de entrada */
+    font-weight: bold;
+}
+
+.estiloform input[type="text"],
+.estiloform textarea,
+.estiloform select {
+    width: 50%; /* Ocupa todo el ancho disponible */
+    padding: 10px;
+    margin-bottom: 15px; /* Espacio entre los campos de entrada */
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.estiloform button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #52565a;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-family: 'Bebas Neue', sans-serif;
+
+}
+
+.estiloform button:hover {
+    background-color: #383737; /* Cambia el color al pasar el mouse sobre el botón */
+    font-family: 'Bebas Neue', sans-serif;
+}
+.estiloform input[type="file"] {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    background-color: #fff; /* Color de fondo igual que otros campos */
+    color: #333; /* Color de texto igual que otros campos */
+    outline: none; /* Quita el borde al hacer clic */
+    cursor: pointer;
+    font-family: 'Bebas Neue', sans-serif;
+}
+footer {
+    background-color: #333; /* Color de fondo del footer */
+    color: #fff; /* Color del texto en el footer */
+    text-align: center;
+    padding: 10px 0;
+    font-size: 14px;
+    font-family: 'Bebas Neue', sans-serif;
+  }
+  
+  .footer-contenido {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Bebas Neue', sans-serif;
+  }
+  
+  .footer-desarrollo,
+  .footer-contacto,
+  .footer-github,
+  .footer-derechos {
+    flex: 1;
+    padding: 5px;
+  }
+  
+  .footer-derechos {
+    background-color: #222; /* Cambia el color de fondo del bloque de derechos */
+  }
